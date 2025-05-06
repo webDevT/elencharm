@@ -676,18 +676,26 @@ h3
         object-position: center
         border-radius: 50%
 .header-photo-item:first-child 
+    display: none
+.header-photo-item:nth-child(2) 
+    display: none
+.header-photo-item:nth-child(3)
     align-self: center
-.header-photo-item:nth-child(2)
+.header-photo-item:nth-child(4)
     position: relative
     top: 9px
-.header-photo-item:nth-child(3)
+.header-photo-item:nth-child(5)
     align-self: flex-end
     width: 28vw
     height: 28vw
     padding: 1.07vw
     background: #FFB386
-.header-photo-item:nth-child(4)
+.header-photo-item:nth-child(6)
     align-self: center
+.header-photo-item:nth-child(7)
+    display: none
+.header-photo-item:nth-child(8)
+    display: none
 .header-photo-item__name
     position: absolute 
     top: 100%
@@ -918,7 +926,22 @@ h3
     .contact-item__icon
         background: #fff
         border: none
-
+.header-secondary__content
+    width: 91.957vw
+    margin-left: auto 
+    margin-right: auto
+.header--secondary
+    position: relative
+.header-bg 
+    position: absolute 
+    top: 67vw 
+    left: -19.9vw
+    width: 34.67vw
+.header-bg-2
+    width: 23vw
+    position: absolute
+    top: 55vw
+    right: -8vw
 @import "media"
 
 
